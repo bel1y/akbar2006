@@ -27,6 +27,7 @@ font-size: 12px;
 line-height: 14px;
 text-transform: uppercase;
 color: #FFFFFF;
+border:none;
 
 }
 .akbar{
@@ -45,4 +46,6 @@ color: #FFFFFF;
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
+
