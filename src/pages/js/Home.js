@@ -4,6 +4,9 @@ import FooterMe from './FooterMe.js' ;
 import s from '../css/Home.module.css';
 import haegim from './akbaaar.png'
 export default class Home extends Component {
+  state={
+    t:localStorage.getItem("lang")?localStorage.getItem("lang"):'uz'
+  }
   render() {
     return (
       <div>
@@ -15,8 +18,14 @@ export default class Home extends Component {
 <div className={s.header_text} >
   <h2>Biz sizga <span>Dasturla</span>| va boshqa kurslarni taklif 
 qilamiz.</h2>
-<p>Siz istalgan vaqtda har qanday mavzuda kurslarni o’rganishingiz 
-mumkin. Buning uchun qidiruv tizimidan foydalaning</p>
+<p>{this.state.t==='uz'?("biz Iteen"):(this.state.t==='ru'?("Вы можете изучать курсы по любой теме в любое время возможно. Для этого используйте поисковую систему"):("Вы можете изучать курсы по любой теме в любое время возможно. Для этого используйте поисковую систему"))}</p>
+
+
+
+
+
+
+
 
 <div className={s.header_input} >
   <input type="text" placeholder='Qanday kurs o’rganmoqchisiz ?' /> <div><img src={haegim} alt="" /></div>
@@ -32,7 +41,6 @@ mumkin. Buning uchun qidiruv tizimidan foydalaning</p>
   <div className={s.card1} ></div>
 <div id={s.card1} className={s.card1} ></div>
 <div className={s.card1} ></div>
-
 <div className={s.card2} ></div>
 </div>
 </header>

@@ -1,18 +1,27 @@
 import React, { Component } from 'react'
 import calvin from './soliyev.png'
 export default class NavbarMe extends Component {
+  state={
+    t:localStorage.getItem("lang")?localStorage.getItem("lang"):'ru'
+  }
+  setLanguage(){
+    var a=document.querySelector("#til").value
+    console.log(a);
+    localStorage.setItem("lang",a)
+    window.location.reload()
+  }
+  componentDidMount(){
+    document.querySelector("#til").value=this.state.t
+  }
   render() {
     return (
       <div>     
 <div className="soliyev">
 <div className="akbar">
 <div className="seokjin"><img src={calvin} alt="" />
-<select className='callin' id="">
-  <option className='callin' value="">Barcha kurslar</option>
-  <option className='callin' value="">1-kurs</option>
-  <option className='callin' value="">2-kurs</option>
-  <option className='callin' value="">3-kurs</option>
-  <option className='callin' value="">4-kurs</option>
+<select className='callin' onChange={()=>{this.setLanguage()}} id="til">
+  <option value="uz">{this.state.t==="uz"?("O`zbek"):(this.setState.t==="ru"?("узбек"):("Uzbek"))}</option>
+  <option value="ru">{this.state.t==="uz"?("Rus tili"):(this.setState.t==="ru"?("узбек1"):("Russian"))}</option>
 </select>
 </div>
 <div className="seokjin2">
