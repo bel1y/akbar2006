@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
   }
-  
-  
   .callin{
     box-sizing: border-box;
   width: 154px;
@@ -16,7 +14,6 @@
   text-transform: uppercase;
   color: #1e3ef3;
   }
-  
   .mic{
     width: 88px;
   height: 30px;
@@ -84,6 +81,7 @@ border-radius: 50%;
   }
   .header_text{
     width: 40%;
+    margin-left: 110px;
   }
   .header_text .header_input input{
     width: 85%;
@@ -121,8 +119,13 @@ line-height:26.25px;
   margin-left: 300px;
 }
 #card1{
-  margin-left: 30%;
+position: relative;
+left: 100px;
 }
+#card12{
+  position: relative;
+  left: 100px;
+  }
 @media(max-width:600px){
   .aylanaab{
     display: none;
@@ -130,7 +133,260 @@ line-height:26.25px;
 }
 .card1{
   width: 450px;
-  min-height: 250px;
+  min-height: 180px;
 background-color: white;
- display: flex;
+padding: 20px 0px 0px 25px; 
+}
+.butter{
+color:   #2E2E2E;
+font-size: 20px;
+ font-weight: 550;
+}
+.but{
+  display: flex;
+  margin-left: 150px;
+
+}
+.abbos{
+margin-left: -150px;
+width: 80px;
+height: 22px;
+border-radius: 2px;
+background-color:#FFB800;
+border: none;
+color: white;
+margin-top: 10px;
+}
+.butter span{
+  color: #9DA7BB;
+  font-size: 14px;
+}
+.jiyu{
+  margin-left: 170px;
+font-size: 25px;
+font-weight: 500;
+}
+.jiyu span{
+font-size: 15px;
+font-weight: 100;
+}
+.take{
+  margin-top: 30px;
+}
+.icon{
+  display: flex;
+  margin-top: 15px;
+}
+.icon h3{
+  color: #FFD401;
+}
+.brrrr{
+  color: #9DA7BB;
+}
+.ibf{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-color: #9DA7BB;
+background-color:white;
+margin-left: 350px;
+margin-top: -10px;
+}
+.ibf h3{
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+  color: #536DFD;
+}
+.bt{
+  margin-top: -35px;
+}
+.tomboy{
+  width: 80px;
+  height: 22px;
+  background-color: #10C8A0;
+  border-radius: 2px;
+  border: none;
+  color: white;
+}
+.suga{
+  color: #2E2E2E;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+.tehen{
+  width: 80px;
+  height: 22px;
+  background-color: #11BDF3;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+.jiyu2{
+font-size: 25px;
+font-weight: 500;
+}
+.jiyu2 span{
+font-size: 15px;
+font-weight: 100;
+}
+.tham{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.gorya{
+  color:   #2E2E2E;
+  font-size: 20px;
+   font-weight: 550;
+  }
+
+  .gorya span{
+    color: #9DA7BB;
+    font-size: 14px;
+  }
+  .milaya{
+    width: 80px;
+    height: 22px;
+    background-color: #EB3B3B;
+    border-radius: 2px;
+    border: none;
+    color: white;
+
+  }
+  .burxon{
+    margin-top: 10px;
+    color:   #2E2E2E;
+    font-size: 20px;
+     font-weight: 550;
+  }
+.nin{
+  width: 250px;
+  height: 150px;
+}
+.cards12{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.asad{
+  width: 130px;
+  height: 28px;
+  background: #536DFD;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border:none;
+
+}
+.buug{
+  padding: 20px;
+border: 2px solid  #536DFD;
+border-radius: 10px;
+margin-bottom: 20px;
+margin-top: 20px;
+margin-left: 150px;
+}
+.lol{
+  font-size: 20px;
+}
+
+.min{
+font-size: 30px;
+color: #2E2E2E;
+font-weight: 400;
+}
+
+.lala{
+font-size: 24px;
+font-weight: 600;
+}
+.lala1{
+  font-size: 24px;
+font-weight: 600;
+color: #536DFD;
+}
+.nun2,
+.nun{
+  width: 540px;
+  height: 400px;
+  border-radius: 4px;
+margin-left: 30px;
+box-shadow:  rgba(0, 0, 0, 0.1);
+}
+.bhbh{
+font-size: 14px;
+color: #9DA7BB;
+}
+.bhbh1{
+  font-size: 24px;
+  font-weight: 700;
+}
+.bhbh1 span{
+  font-size: 17px;
+  font-weight: 200;
+}
+.ibf1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-color: #9DA7BB;
+background-color:white;
+
+}
+.ibf1 h3{
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+  color: #536DFD;
+}
+.okeoke{
+  display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.hugug1,
+.hugug{
+  margin-left: 30px;
+}
+.oke1{
+  margin-right: 100px;
+} 
+.nunh{
+  display: flex;
+  justify-content: center;
+}
+.ibf3{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-color: #9DA7BB;
+background-color:white;
+box-shadow: 2px rgba(83, 109, 253, 0.25);
+}
+.ibf3 h3{
+font-size: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+  color: #536DFD;
+}
+.ibf1 :hover,
+.ibf3 :hover{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #536DFD;
+  color: white;
+  font-size: 25px;
+}
+.min{
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
