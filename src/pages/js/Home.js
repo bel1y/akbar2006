@@ -11,7 +11,22 @@ import blabla1 from "./hozr.png";
 import blan from "./iibo.png";
 import vv from "./theards.png";
 import vauv from "./oxiri.png";
-import foti from "./desktop.png"
+import foti from "./desktop.png";
+import foti1 from "./palette.png";
+import foti2 from "./bag.png";
+import foti3 from "./coins.png";
+import foti4 from "./chart-line.png";
+import foti5 from "./medal.png";
+import foti6 from "./shield (1).png";
+import foti7 from "./heartbeat.png";
+import jenn from "./Rectangle 11.1.png";
+import jenn1 from "./Rectangle 11.3.png";
+import jenn2 from "./Rectangle 11.5.png";
+import jenn3 from "./Rectangle 11.7.png";
+import jenn4 from "./Rectangle 11.9.png";
+import jenn5 from "./Rectangle 11.11.png";
+import Nav from 'react-bootstrap/Nav';
+import 'bootstrap/dist/css/bootstrap.min.css';
 export default class Home extends Component {
   state={
     data:[],
@@ -250,8 +265,180 @@ tirish qoidalari</p>
       <img src={ foti } alt="" />
       <p className={s.jk} >Dasturlash</p>
     </div>
+    <div className={s.kart}>
+      <img src={ foti1 } alt="" />
+      <p className={s.jk} >Dizayn</p>
+    </div>   <div className={s.kart}>
+      <img src={ foti2 } alt="" />
+      <p className={s.jk} >Biznes</p>
+    </div>   <div className={s.kart}>
+      <img src={ foti3 } alt="" />
+      <p className={s.jk} >Buxgalteriya</p>
+    </div>   <div className={s.kart}>
+      <img src={ foti4 } alt="" />
+      <p className={s.jk} >Marketing</p>
+    </div>   <div className={s.kart}>
+      <img src={ foti5 } alt="" />
+      <p className={s.jk} >Menejment</p>
+    </div>   <div className={s.kart}>
+      <img src={ foti6 } alt="" />
+      <p className={s.jk} >Xavfsizlik</p>
+    </div>   <div className={s.kart}>
+      <img src={ foti7 } alt="" />
+      <p className={s.jk} >Salomatlik</p>
+    </div>
+  </div>
+  <div className={s.thv}>
+{/* <p className={s.thv1} >Dasturlash</p>
+<p className={s.thv1} ></p>
+<p className={s.thv1} ></p>
+<p className={s.thv1} ></p>
+<p className={s.thv1} ></p>
+<p className={s.thv1} ></p>
+<p className={s.thv1} ></p>
+<p className={s.thv1} ></p> */}
+    <Nav variant="underline" defaultActiveKey="/home">
+   
+      <Nav.Item className={s.kl} >
+        <Nav.Link eventKey="link-1">Dizayn</Nav.Link>
+        <Nav.Link eventKey="link-1">Marketing</Nav.Link>
+        <Nav.Link eventKey="link-1">Biznes</Nav.Link>
+        <Nav.Link eventKey="link-1">Salomatlik</Nav.Link>
+        <Nav.Link eventKey="link-1">Menejment</Nav.Link>
+        <Nav.Link eventKey="link-1">Buxgalteriya</Nav.Link>
+        <Nav.Link eventKey="link-1">Tarmoq</Nav.Link>
+        
+
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="disabled" disabled>
+          Disabled
+        </Nav.Link>
+      </Nav.Item>
+    </Nav>
+
   </div>
 </div>
+
+<div className={s.rey}>
+<div className={s.ray1} >
+  <div className={s.run}>
+  <img src={ jenn } alt="" />
+<div className={s.hugug1}>  <p className={s.lalas} >Python bo’yicha boshlang’ich <br />  
+dasturlash</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(987)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke1}>
+<div className={s.oke12}> <p className={s.bhbhh}>Kurs hajmi</p> <p className={s.bhbh1g} >42 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1g} >370.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div>
+<div className={s.run}>
+  <img src={ jenn1 } alt="" />
+<div className={s.hugug1}>  <p className={s.lalasi} >Java bo’yicha boshlang’ich <br />
+dasturlash</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(987)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke1}>
+<div className={s.oke12}> <p className={s.bhbhh}>Kurs hajmi</p> <p className={s.bhbh1g} >42 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1g} >370.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div>  
+<div className={s.run}>
+  <img src={ jenn2 } alt="" />
+<div className={s.hugug1}>  <p className={s.lalasi} >Spring to’liq kurs</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(987)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke1}>
+<div className={s.oke12}> <p className={s.bhbhh}>Kurs hajmi</p> <p className={s.bhbh1g} >42 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1g} >370.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div>   
+<div className={s.run}>
+  <img src={ jenn3 } alt="" />
+<div className={s.hugug1}>  <p className={s.lalasi} >C++ da massivlar bilan
+ishlash</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(987)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke1}>
+<div className={s.oke12}> <p className={s.bhbhh}>Kurs hajmi</p> <p className={s.bhbh1g} >42 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1g} >370.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div> 
+
+<div className={s.run}>
+  <img src={ jenn4 } alt="" />
+<div className={s.hugug1}>  <p className={s.lalasi} >JCSS da grid texnologiyalari</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(987)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke1}>
+<div className={s.oke12}> <p className={s.bhbhh}>Kurs hajmi</p> <p className={s.bhbh1g} >42 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1g} >370.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div> 
+<div className={s.run}>
+  <img src={ jenn5 } alt="" />
+<div className={s.hugug1}>  <p className={s.lalasi} >JHTML 5 imkoniyatlari, CSS 3 
+imkoniyatlari</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(987)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke1}>
+<div className={s.oke12}> <p className={s.bhbhh}>Kurs hajmi</p> <p className={s.bhbh1g} >42 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1g} >370.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div>  
+
+</div>
+</div>
+
       </div>
     )
   }
