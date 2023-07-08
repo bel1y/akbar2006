@@ -9,6 +9,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import blabla from "./guh.png";
 import blabla1 from "./hozr.png";
 import blan from "./iibo.png";
+import vv from "./theards.png";
+import vauv from "./oxiri.png";
+import foti from "./desktop.png"
 export default class Home extends Component {
   state={
     data:[],
@@ -32,7 +35,6 @@ postData=()=>{
     "course_img":document.querySelector("#th").files[0],
     "course_price":document.querySelector("#hu").value,
     "course_time":document.querySelector("#mk").value,
-    "course_teacherid": 5,
    }
    console.log(data);
   }
@@ -176,26 +178,79 @@ proffessionalgacha</p>
 <div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
 </div>
 </div>
-
-<div className={s.nun3}>
+</div>
+<div className={s.no}><div className={s.nun3}>
+  
   <img src={ blan } alt="" />
-<div className={s.hugug1}>  <p className={s.lala1} >Boshlang’ich Photoshop <br />kurslari</p>
+<div className={s.hugug1}>  <p className={s.lala} >Boshlang’ich Photoshop <br />kurslari</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(987)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke}>
+<div className={s.oke12}> <p className={s.bhbh}>Kurs hajmi</p> <p className={s.bhbh1} >42 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1} >370.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div>
+<div className={s.nun3}>
+  
+  <img src={ vv } alt="" />
+<div className={s.hugug1}>  <p className={s.lala} >Shaxsiy biznesni rivojlan- <br />
+tirish qoidalari</p>
+<div className={s.icon} >
+     <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3> <AiFillStar /></h3>
+    <h3><AiOutlineStar/></h3> <p>4.0</p>
+    <p  className={s.brrrr} >(165)</p>
+    <div className={s.bt}></div>
+    </div></div>
+<div className={s.okeoke}>
+<div className={s.oke12}> <p className={s.bhbh}>Kurs hajmi</p> <p className={s.bhbh1} >16 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1} >420.000 <span>UZS</span> </p></div>
+<div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
+</div>
+</div>
+<div className={s.nun3}>
+  
+  <img src={ vauv } alt="" />
+<div className={s.hugug1}>  <p className={s.lala} >1C bo’yicha to’liq kurs <br />
+(amaliy)</p>
 <div className={s.icon} >
      <h3> <AiFillStar /></h3>
     <h3> <AiFillStar /></h3>
     <h3> <AiFillStar /></h3>
     <h3> <AiFillStar /></h3>
     <h3><AiOutlineStar/></h3> <p>4.1</p>
-    <p  className={s.brrrr} >(524)</p>
+    <p  className={s.brrrr} >(1,640)</p>
     <div className={s.bt}></div>
     </div></div>
 <div className={s.okeoke}>
-<div className={s.oke1}> <p className={s.bhbh}>Kurs hajmi</p> <p className={s.bhbh1} >38 soat</p> </div>
-<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1} >250.000 <span>UZS</span> </p></div>
+<div className={s.oke12}> <p className={s.bhbh}>Kurs hajmi</p> <p className={s.bhbh1} >36 soat</p> </div>
+<div className={s.oke2}><p className={s.bhbh}>Kurs narxi</p> <p className={s.bhbh1} >450.000 <span>UZS</span> </p></div>
 <div className={s.oke2}><button className={s.ibf3} ><h3><AiOutlineArrowRight/></h3></button></div>
 </div>
 </div>
 </div>
+</div>
+<div className={s.moko} >
+<div className={s.lali2}>
+<p className={s.mk2} >Top kategoriyalar</p>
+<button className={s.lali} >Barchasi</button>
+</div>
+  <div className={s.karta}>
+    <div className={s.kart}>
+      <img src={ foti } alt="" />
+      <p className={s.jk} >Dasturlash</p>
+    </div>
+  </div>
 </div>
       </div>
     )

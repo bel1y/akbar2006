@@ -315,6 +315,15 @@ color: #536DFD;
   height: 400px;
   border-radius: 4px;
 margin-left: 30px;
+box-shadow: 0px 12px 45px 0px rgba(83, 109, 253, 0.25);
+margin-bottom: 20px;
+}
+.nun3{
+width:350px;
+height: 400px;
+border-radius: 4px;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
+
 }
 .bhbh{
 font-size: 14px;
@@ -348,6 +357,7 @@ align-items: center;
  justify-content: space-around;
  align-items: center;
 }
+
 .hugug1,
 .hugug{
   margin-left: 30px;
@@ -389,3 +399,50 @@ align-items: center;
   margin-top: 40px;
   margin-bottom: 30px;
 }
+.no{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 400px;
+}
+.mk2{
+  color: var(--black, #2E2E2E);
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.moko{
+  background: #F1F2F6;
+}
+.lali{
+  width: 120px;
+height: 30px;
+border-radius: 4px;
+border: 1px solid var(--violet, #536DFD);
+color: #536DFD;
+}
+.lali2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 80px 20px;
+}
+.kart{
+  width: 230px;
+height: 70px;
+border-radius: 4px;
+background: var(--white, #FFF);
+box-shadow: 0px 12px 30px 0px rgba(83, 109, 253, 0.15);
+}
+.jk{
+  color: var(--black, #2E2E2E);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
