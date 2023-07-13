@@ -27,7 +27,22 @@ import jenn4 from "./Rectangle 11.9.png";
 import jenn5 from "./Rectangle 11.11.png";
 import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import hoji from "./Rectangle 13.png";
+import ustoz from "./“ (1).png";
+import uctala from "./“ (2).png";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/effect-flip';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import './styles.css';
+
+import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 export default class Home extends Component {
+  
   state={
     data:[],
     t:localStorage.getItem("lang")?localStorage.getItem("lang"):'uz',
@@ -53,6 +68,7 @@ postData=()=>{
    }
    console.log(data);
   }
+  
   render() {
     return (
       <div>
@@ -310,11 +326,7 @@ tirish qoidalari</p>
         
 
       </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="disabled" disabled>
-          Disabled
-        </Nav.Link>
-      </Nav.Item>
+ 
     </Nav>
 
   </div>
@@ -439,6 +451,52 @@ imkoniyatlari</p>
 </div>
 </div>
 
+<div className={s.admikn2} ><div className={s.admin}>
+<img className={s.adab} src={ hoji } alt="" />  
+<div className={s.madi} >
+  <img className={s.mkooo} src={ustoz} alt="" />
+<p className={s.farzzz} >“O’z qalbing va ichki sezgingga ergashish uchun <br />
+yetarlicha jur’atli bo’l. Zotan shu ikki tuyg’u <br />
+sening aslida kim bo’lishni xoxlashingni aniq biladi.”</p>
+<div className={s.fufu} ><img className={s.uf} src={ uctala } alt="" />
+<p className={s.jkg} >Stiv Jobs</p>
+
+</div>
+
+
+</div>
+</div></div>
+
+<div className={s.ok} >
+<center><p className={s.dfg} >Biz haqimizda boshqalar fikri</p></center>
+<Swiper
+        effect={'flip'}
+        grabCursor={true}
+        pagination={true}
+        navigation={true}
+        modules={[EffectFlip, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide className={s.ikj} >
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+        </SwiperSlide>
+        <SwiperSlide className={s.ikj} >
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        </SwiperSlide>
+        <SwiperSlide className={s.ikj} >
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        </SwiperSlide>
+        <SwiperSlide className={s.ikj}  >
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        </SwiperSlide>
+        <SwiperSlide  className={s.ikj} >
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        </SwiperSlide>
+        <SwiperSlide  className={s.ikj} >
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+        </SwiperSlide>
+      </Swiper>
+</div>
       </div>
     )
   }
