@@ -497,6 +497,40 @@ sening aslida kim bo’lishni xoxlashingni aniq biladi.”</p>
         </SwiperSlide>
       </Swiper>
 </div>
+
+
+<div className={s.oyna} >
+<div className={s.mini_oyna} >
+<div className={s.close} onClick={()=>{document.querySelector(s.oyna).style.display="none"}} >X</div>
+Siz rostan ham {this.state.delete1.fullname} ni uchirmoqchimisiz. Shu nomer {this.state.delete1.phone_number} sizga yoqmayaptimi?
+<button onClick={()=>{this.deleteData()}} >Daa</button><button onClick={()=>{document.querySelector(s.oyna).style.display="none"}} >Neet</button>
+
+</div>
+</div>
+
+<table style={{width:"100%"}} >
+  <tr style={{border:"1px solid black"}} >
+    <th style={{border:"1px solid black"}}   >email</th>
+    <th style={{border:"1px solid black"}}   >phone</th>
+    <th style={{border:"1px solid black"}}   >masseger</th>
+    <th style={{border:"1px solid black"}}   >fullname</th>
+    <th style={{border:"1px solid black"}}   >delete</th>
+    <th style={{border:"1px solid black"}}   >edit</th>
+
+
+  </tr>
+  
+</table>
+
+
+
+
+
+
+
+
+
+
       </div>
     )
   }
