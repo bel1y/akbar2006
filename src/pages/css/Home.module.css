@@ -606,3 +606,59 @@ height: 270px;
 border-radius: 4px;
 background: var(--white, #FFF);
   }
+  .mySwipera{
+    width:705px;
+   height:350px;
+ }
+ .lkl{
+   color: var(--black, #2E2E2E);
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-top: 250px;
+ }
+ .lpl{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 100px;
+ }
+ .kop{
+  color: var(--seriy, #9DA7BB);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+
+ .dih{
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 50px 0px 50px;
+ }
+ .mik{
+  width: 220px;
+height: 41px;
+border-radius: 4px;
+background: var(--background, #F1F2F6);
+display: flex;
+justify-content: space-around;
+align-items: center;
+ }
+ .dji{
+  width: 200px;
+height: 40px;
+border-radius: 4px;
+background: var(--seriy, #9DA7BB);
+color: var(--white, #FFF);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+ }

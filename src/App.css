@@ -54,3 +54,23 @@
     align-items: center;
   
   }
+  .ikj{
+    width:100px;
+    height:200px;
+  }
+  .mySwipera{
+     width:705px;
+    height:350px;
+  }
+  .lkl{
+    color: var(--black, #2E2E2E);
+text-align: center;
+font-size: 90px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+  }
+  .lpl{
+    display: flex;
+    justify-content: space-around;
+  }
