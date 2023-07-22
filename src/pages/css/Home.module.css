@@ -587,7 +587,7 @@ font-weight: 400;
 line-height: normal;
   }
   .ok{
-    background: #F1F2F6;
+   background: #F1F2F6; 
     margin-top: 150px;
     width: 100%;
     position: absolute;
@@ -606,7 +606,7 @@ height: 270px;
 border-radius: 4px;
 background: var(--white, #FFF);
   }
-  .mySwipera{
+  .mySwipera  {
     width:705px;
    height:350px;
  }
