@@ -31,8 +31,15 @@ import hoji from "./Rectangle 13.png";
 import ustoz from "./“ (1).png";
 import uctala from "./“ (2).png";
 import jiiij from "./Ellipse (5).png";
+import pinterest from "./Group 23 (2).png";
+import adidas from "./download.png";
+import lyft from "./download 5.png";
+import monkey from "./survey monkey icon.png";
+import monkeey from "./survey monkey text.png";
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import payme from "./payme.png";
+import click from "./logo (7).png";
+import upay from "./upay_logo_new.png";
 import 'swiper/css';
 import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
@@ -529,6 +536,61 @@ Quis et volutpat donec ipsum malesuada ipsum mattis tincidunt mattis.
 Proin tristique ultrices egestas ut vitae consectetur est.</p>
         </SwiperSlide>
       </Swiper>
+
+<center><p className={s.lkl} >Bizning hamkorlar</p></center>
+
+<div  className={s.lpl} >
+
+
+<img src={pinterest} alt="" />
+<img src={ adidas } alt="" />
+<img src={  lyft} alt="" />
+<img src={  monkey} alt="" />
+<img src={monkeey} alt="" />
+</div>
+
+
+<div className={s.dih} >
+    <div className={s.dih1} >
+      <p> Asosiy</p>
+      <p className={s.kop} >Loyiha haqida</p>
+      <p className={s.kop} >Kurslar</p>
+      <p className={s.kop} >Mentorlarga</p>
+      <p className={s.kop} >Ommaviy oferta</p>
+      <p className={s.kop} >Maxfiylik siyosati</p>
+
+    </div>
+    
+    <div className={s.dih1} >
+      <p>Qo’shimcha</p>
+      <p className={s.kop} >Bizning jamoa</p>
+      <p className={s.kop} >Biz bilan hamkorlik</p>
+      <p className={s.kop} >Bu qanday ishlaydi ?</p>
+  
+      </div>
+    <div className={s.dih1} >
+    <p>Qo’llab quvvatlash</p>
+    <p className={s.kop} >Eng ko’p beriladigan savollar</p>
+    <p className={s.kop} > Kontakt</p>
+
+
+    </div>
+    <div className={s.dih1} >
+<p>To’lov turlari</p>
+<div className={s.mik}  >
+<img src={payme} alt="" />
+<img src={click} alt="" />
+<img src={upay} alt="" />
+</div>
+<p>100011, Toshkent sh. Shayxontohur tum., <br />
+Zarqaynar ko'ch., 3B-uy</p>
+
+<button className={s.dji} >Biz bilan aloqa</button>
+    </div>
+
+</div>
+
+
 </div>
 
 
@@ -554,7 +616,6 @@ Siz rostan ham {this.state.delete1.fullname} ni uchirmoqchimisiz. Shu nomer {thi
   </tr>
   
 </table> */}
-
 
 
 

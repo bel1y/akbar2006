@@ -609,6 +609,7 @@ background: var(--white, #FFF);
   .mySwipera  {
     width:705px;
    height:350px;
+   background-color: white;
  }
  .lkl{
    color: var(--black, #2E2E2E);
@@ -648,6 +649,7 @@ background: var(--background, #F1F2F6);
 display: flex;
 justify-content: space-around;
 align-items: center;
+margin-bottom: 20px;
  }
  .dji{
   width: 200px;
